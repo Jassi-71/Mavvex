@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <section className='h-screen bg-cover bg-hero
+    font-[Poppins] md:bg-top bg-center'>
+        <div className="flex flex-col justify-center text-center items-center h-3/4">
+          <h2 className="text-black text-2xl font-medium ">Mavvex</h2>
+          <h1 className="md:text-5xl text-3xl text-black font-semibold py-5">
+            AI Website 
+          </h1>
+          
+        </div>
+    </section>
+  )
 }
 
 export default App;
