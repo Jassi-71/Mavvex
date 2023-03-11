@@ -25,6 +25,12 @@ export const Company = [
     {name: 'Blog', link: '#'}
 ];
 
+export const Contact = [
+    {name: 'Company', value: 'Mavvex', link: '#'},
+    {name: 'Address', value: '1197 Sainik Colony Sector 49, Faridabad HR - 121001, India', link: '#'},
+    {name: 'Email', value: 'admin@mavvexlabs.com', link: '#'},
+];
+
 export const Icons = [
     { name: "logo-facebook", link: "#" },
     { name: "logo-twitter", link: "#" },
