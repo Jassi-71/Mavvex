@@ -5,8 +5,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        primary: "#695CFF",
+      },
       backgroundImage: {
-        'hero': "url('../public/ai.jpg')",
+        'hero': "url('../src/images/ai.jpg')",
       },
     },
   },
