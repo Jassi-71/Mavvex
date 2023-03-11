@@ -1,32 +1,34 @@
-export const PRODUCTS = [
-    {name: 'Drag and Drop', link: '#'},
-    {name: 'Visual Studio X', link: '#'},
-    {name: 'Easy Content', link: '#'},
+export const UseCases = [
+    {name: 'Deep Tech Product Development', link: '#'},
+    {name: 'Data Privacy in ML Model', link: '#'},
+    {name: 'Language Transcription & Translation', link: '#'},
 ];
-export const RESOURCES = [
-    {name: 'Industries and tools', link: '#'},
-    {name: 'Use cases', link: '#'},
-    {name: 'Blog', link: '#'},
-    {name: 'Online event', link: '#'},
-    {name: 'Nostrud exercitation', link: '#'},
+
+export const Industries = [
+    {name: 'Healthcare', link: '#'},
+    {name: 'Retail', link: '#'},
+    {name: 'Agriculture', link: '#'},
+    {name: 'Conversational AI', link: '#'},
+    {name: 'Security and Privacy in AI', link: '#'},
+    {name: 'Customers', link: '#'},
 ];
-export const COMPANY = [
-    {name: 'Diversity & inclusion', link: '#'},
+
+export const Research = [
+    {name: 'Publications', link: '#'},
+    {name: 'Research Team', link: '#'},
+];
+
+export const Company = [
     {name: 'About us', link: '#'},
-    {name: 'Press', link: '#'},
-    {name: 'Customer stories', link: '#'},
-    {name: 'Online communities', link: '#'},
+    {name: 'Contact us', link: '#'},
+    {name: 'Careers', link: '#'},
+    {name: 'Blog', link: '#'}
 ];
-export const SUPPORT = [
-    {name: 'Documentation', link: '#'},
-    {name: 'Tutorials & guides', link: '#'},
-    {name: 'Webinars', link: '#'},
-    {name: 'Open-source', link: '#'},
-];
+
 export const Icons = [
-    {name: 'logo-facebook', link: '#'},
-    {name: 'logo-twitter', link: '#'},
-    {name: 'logo-github', link: '#'},
-    {name: 'logo-linkedin', link: '#'},
-    {name: 'logo-instagram', link: '#'},
-];
+    { name: "logo-facebook", link: "#" },
+    { name: "logo-twitter", link: "#" },
+    { name: "logo-github", link: "#" },
+    { name: "logo-linkedin", link: "#" },
+    { name: "logo-instagram", link: "#" },
+  ];
