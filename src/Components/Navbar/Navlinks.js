@@ -13,32 +13,43 @@ const Navlinks = () => {
                             <h1 className='text-[17px] font-semibold py-7 flex justify-between items-center md:pr-0 pr-5 group' onClick={()=>heading!==link.name ? setHeading(link.name) : setHeading('')}>
                                 {link.name}
                                  
+                                 {
+                                    link.sublink && <> <span className='text-xl md:hidden inline'>
+                                        <ion-icon name={`${heading===link.name ? 'chevron-up' : 'chevron-down'}`} style={{'color':'black'}}>
+
+                                            </ion-icon>
+                                        </span>
+
+                                        <span className='text-xl md:mt-0 md:ml-2 md:block hidden group-hover:rotate-180 group-hover:-mt-2'>
+                                            <ion-icon name="chevron-down" style={{'color':'black'}}></ion-icon>
+                                        </span>
+
+                                    </>
+                                }
                                 
-                                    <span className='text-xl md:hidden inline'>
-                                        <ion-icon name={`${heading===link.name ? 'chevron-up' : 'chevron-down'}`}>
-
-                                        </ion-icon>
-                                    </span>
-
-                                    <span className='text-xl md:mt-0 md:ml-2 md:block hidden group-hover:rotate-180 group-hover:-mt-2'>
-                                        <ion-icon name="chevron-down"></ion-icon>
-                                    </span>
+                                    
                                 
                             
                             </h1>
                             {link.submenu && 
                             <div>
-                                <div className='absolute top-28 hidden group-hover:md:block hover:md:block'>
-                                    <div className='py-3'>
+                                <div className='absolute top-25 hidden group-hover:md:block hover:md:block'>
+                                    <div className='py-3 '>
                                         <div className='w-4 h-4 left-3 absolute mt-1 bg-white rotate-45 '>
 
                                         </div>
                                     </div>
-                                    <div className='bg-white p-3.5 '>
+                                    <div className='bg-white p-3.5 rounded-lg '>
                                         {
                                             link.sublink.map((slink)=>(
-                                                <li className='text-sm text-gray-600 my-2.5'>
-                                                    <Link to={slink.link} className='hover:text-primary'>{slink.name}</Link>
+                                                <li className='text-sm text-gray-600 my-2.5 hover:bg-hover rounded-lg'>
+                                                    
+                                                    <Link to={slink.link} className='hover:bg-hover rounded-lg'>
+                                                        <span className='text-2xl mx-3'>
+                                                            {slink.icon}
+                                                        </span>
+                                                        {slink.name}
+                                                    </Link>
                                                 </li>
                                             ))
                                         }
@@ -52,9 +63,15 @@ const Navlinks = () => {
                         <div className={`${heading===link.name  ? 'md:hidden' : 'hidden'}`}>
                             {
                                 link.sublink && link.sublink.map((slink)=>(
-                                    <div>
-                                        <li className="py-3 pl-14">
-                                            <Link to={slink.link}>{slink.name}</Link>
+                                    <div >
+                                        <li className="py-3 pl-14  hover:bg-hover rounded-lg">
+                                            <Link to={slink.link}>
+                                                <span className='text-2xl mx-3'>
+                                                    {slink.icon}
+                                                </span>
+
+                                                {slink.name}
+                                            </Link>
                                         </li>
                                     </div>
                                 ))

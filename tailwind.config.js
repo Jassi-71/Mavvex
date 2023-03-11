@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       colors: {
         primary: "#695CFF",
+        hover:"#e1dff0"
       },
       backgroundImage: {
         'hero': "url('../src/images/ai.jpg')",

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Logo from '../../images/logo1.jpg'
+import Logo from '../../images/main_logo.jpg'
 import {Link} from 'react-router-dom';
 import Navlinks from './Navlinks';
 import Button from '../Button';
@@ -10,9 +10,9 @@ const Navbar = () => {
     <nav className='bg-white'>
       <div className='flex items-center font-medium justify-around'>
       <div className="z-50 p-5 md:w-auto w-full flex justify-between">
-          <img src={Logo} alt="logo" className="md:cursor-pointer h-14" />
+          <img src={Logo} alt="logo" className="md:cursor-pointer h-16 rounded-lg" />
           <div className='text-3xl md:hidden' onClick={()=>setOpen(!open)}>
-            <ion-icon name={`${open ? 'close':'menu'}`}></ion-icon>
+            <ion-icon name={`${open ? 'close':'menu'}`} style={{'color':'black'}}></ion-icon>
           </div>
         </div>
 
