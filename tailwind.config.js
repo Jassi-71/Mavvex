@@ -9,9 +9,9 @@ module.exports = {
         primary: "#695CFF",
         hover:"#e1dff0"
       },
-      backgroundImage: {
-        'hero': "url('../src/images/ai.jpg')",
-      },
+      // backgroundImage: {
+      //   'hero': "url('../src/images/ai.jpg')",
+      // }
     },
   },
   plugins: [],
