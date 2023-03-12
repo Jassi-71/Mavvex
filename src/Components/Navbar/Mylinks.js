@@ -17,16 +17,16 @@ export const links=[
             name:'Healthcare',link:'/healthcare',icon:<ion-icon name="bandage-outline"></ion-icon>
         },
         {
-            name:"Retail",link:'/retails',icon:<ion-icon name="cart-outline"></ion-icon>
+            name:"Retail",link:'/retail',icon:<ion-icon name="cart-outline"></ion-icon>
         },
         {
             name:'Agriculture',link:'/agriculture',icon:<ion-icon name="thunderstorm-outline"></ion-icon>
         },
         {
-            name:'Conversational AI',link:'conversational-ai',icon:<ion-icon name="chatbubbles-outline"></ion-icon>
+            name:'Conversational AI',link:'/conversational_ai',icon:<ion-icon name="chatbubbles-outline"></ion-icon>
         },
         {
-            name:'Security and Privacy in AI',link:'security-privacy-ai',icon:<ion-icon name="finger-print-outline"></ion-icon>
+            name:'Security and Privacy in AI',link:'security_privacy_ai',icon:<ion-icon name="finger-print-outline"></ion-icon>
         }
     ]},
     {name:'Research',submenu:true,sublink:[
@@ -34,18 +34,18 @@ export const links=[
             name:'Publications',link:'/publications',icon:<ion-icon name="finger-print-outline"></ion-icon>
         },
         {
-            name:'Research Team',link:'research-team',icon:<ion-icon name="book-outline"></ion-icon>
+            name:'Research Team',link:'/research_team',icon:<ion-icon name="book-outline"></ion-icon>
         }
     ]},
     {name:'Company',submenu:true,sublink:[
         {
-            name:'About Us',link:'about-us',icon:<ion-icon name="mail-open-outline"></ion-icon>
+            name:'About Us',link:'/about_us',icon:<ion-icon name="mail-open-outline"></ion-icon>
         },
         {
-            name:'Contact Us',link:'contact-us',icon:<ion-icon name="chatbox-outline"></ion-icon>
+            name:'Contact Us',link:'/contact_us',icon:<ion-icon name="chatbox-outline"></ion-icon>
         },
         {
-            name:'Careers',link:'careers',icon:<ion-icon name="trending-up-outline"></ion-icon>
+            name:'Careers',link:'/carrer',icon:<ion-icon name="trending-up-outline"></ion-icon>
         }
     ]},
     {name:'Customers',submenu:false},
