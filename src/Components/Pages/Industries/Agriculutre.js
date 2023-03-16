@@ -15,10 +15,10 @@ const Agriculutre = () => {
             </p>
 
             <p className='my-6 text-xl text-gray-700'>
-            E-commerce was one of the early adopters of AI/ML models that used them to design data 
-            clustering algorithms and automate which products should be shown on a user’s homepage. 
-            AI is now present in nearly every action a user takes, which allows retail companies to 
-            collect user data and offer more personalised services.
+            AI can be used in many ways in Agriculture. By using AI to optimize resources,
+             detect issues early, and improve efficiency, farmers can reduce costs and 
+             increase yields, ultimately contributing to a more sustainable and secure 
+             food supply.
             </p>
 
             <div className='bg-slate-700 text-white px-6 py-2 rounded-full font-bold w-max hover:cursor-pointer'>
@@ -38,41 +38,52 @@ const Agriculutre = () => {
         </div>
         <div className='mx-10'>
           <p className='text-2xl font-semibold'>
-          Customer churn model
+          Precision Agriculture
           </p>
           <p className='my-4 text-xl'>
-          Predicting and reducing user churn rate with targeted recommendations and 
-          offers is a common strategy of retail companies as retaining customers is a 
-          key concern for them. betterdata helps to balance and generate synthetic data 
-          that matches real user data and is free to use, share, and store across different 
-          business units within the same company as well as externally with third-parties.
+          AI can be used in precision agriculture to optimize the use of resources 
+          such as water, fertilizers, and pesticides. By analyzing data from sensors, 
+          drones, and other sources, AI algorithms can provide insights into soil 
+          moisture, plant health, and growth patterns. This information can help farmers 
+          make data-driven decisions and reduce waste, ultimately improving crop yields 
+          and efficiency.
           </p>
         </div>
 
         <div className='mx-10 my-10'>
           <p className='text-2xl font-semibold'>
-          Recommendation systems that actually work
+          Crop Monitoring and Yield Prediction
           </p>
           <p className='my-4 text-xl'>
-          Advanced clustering algorithms power recommendation systems and need huge volumes of 
-          user data for profiling. A recommendation system also requires AI models to be properly
-           fine-tuned and capture complex correlations between different user profiles. With
-            betterdata, real user data can be transformed into synthetic data that can be openly 
-            shared and used for product development to offer users more personalised services.
+          AI can be used to monitor crops and predict yields. By analyzing satellite 
+          imagery and other data sources, AI algorithms can provide insights into plant 
+          health, growth patterns, and stress levels. This information can help farmers 
+          detect issues early and take corrective action to prevent yield losses.
           </p>
         </div>
 
         <div className='mx-10 my-10'>
           <p className='text-2xl font-semibold'>
-          Predictive sale analytics
+          Pest and Disease Detection
           </p>
           <p className='my-4 text-xl'>
-          Retail businesses usually forecast their revenue goals by predicting when users 
-          are most likely to buy a certain product. Such predictive analytics can boost a 
-          business multifold such as stock optimization and resource management can be effectively
-           done by predicting user sentiment for a certain period of time. betterdata adds to this 
-           capability with data synthesis that can amplify hidden data patterns, which are otherwise
-            missed with traditional techniques.
+          AI can be used to detect pests and diseases in crops. By analyzing images 
+          and data from sensors, AI algorithms can identify signs of pests and diseases 
+          before they spread. This information can help farmers take preventive measures 
+          to protect their crops and reduce the use of pesticides.
+          </p>
+        </div>
+
+        <div className='mx-10 my-10'>
+          <p className='text-2xl font-semibold'>
+          Livestock Management
+          </p>
+          <p className='my-4 text-xl'>
+          AI can be used in livestock management to monitor the health and behavior 
+          of animals. By analyzing data from sensors and cameras, AI algorithms can 
+          identify signs of illness or distress and alert farmers to take action. This 
+          information can also help farmers improve the welfare of their animals and 
+          optimize feed and water usage.
           </p>
         </div>
 

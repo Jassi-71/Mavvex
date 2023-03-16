@@ -15,10 +15,12 @@ const Conversational_ai = () => {
             </p>
 
             <p className='my-6 text-xl text-gray-700'>
-            E-commerce was one of the early adopters of AI/ML models that used them to design data 
-            clustering algorithms and automate which products should be shown on a user’s homepage. 
-            AI is now present in nearly every action a user takes, which allows retail companies to 
-            collect user data and offer more personalised services.
+            Conversational AI systems can simulate natural language interactions between 
+            humans and computers, using natural language processing (NLP) and machine 
+            learning techniques to understand and respond to user input.They can be 
+            designed to handle a wide range of tasks, from simple queries and requests
+             to more complex interactions that require context and understanding of user
+              intent.
             </p>
 
             <div className='bg-slate-700 text-white px-6 py-2 rounded-full font-bold w-max hover:cursor-pointer'>
@@ -38,41 +40,36 @@ const Conversational_ai = () => {
         </div>
         <div className='mx-10'>
           <p className='text-2xl font-semibold'>
-          Customer churn model
+          Customer Service and Support
           </p>
           <p className='my-4 text-xl'>
-          Predicting and reducing user churn rate with targeted recommendations and 
-          offers is a common strategy of retail companies as retaining customers is a 
-          key concern for them. betterdata helps to balance and generate synthetic data 
-          that matches real user data and is free to use, share, and store across different 
-          business units within the same company as well as externally with third-parties.
+          Conversational AI can be used to provide customer service and support through 
+          chatbots, voice assistants, or messaging apps. By automating responses to 
+          frequently asked questions and providing personalized support, conversational 
+          AI can improve customer satisfaction and reduce response times.
           </p>
         </div>
 
         <div className='mx-10 my-10'>
           <p className='text-2xl font-semibold'>
-          Recommendation systems that actually work
+          User Engagement
           </p>
           <p className='my-4 text-xl'>
-          Advanced clustering algorithms power recommendation systems and need huge volumes of 
-          user data for profiling. A recommendation system also requires AI models to be properly
-           fine-tuned and capture complex correlations between different user profiles. With
-            betterdata, real user data can be transformed into synthetic data that can be openly 
-            shared and used for product development to offer users more personalised services.
+          Conversational AI can be used to improve user engagement and retention on a 
+          website. Chatbots can be programmed to initiate conversations with users, 
+          provide personalized recommendations, and encourage users to explore more 
+          content on the site.
           </p>
         </div>
 
         <div className='mx-10 my-10'>
           <p className='text-2xl font-semibold'>
-          Predictive sale analytics
+          Feedback and Surveys
           </p>
           <p className='my-4 text-xl'>
-          Retail businesses usually forecast their revenue goals by predicting when users 
-          are most likely to buy a certain product. Such predictive analytics can boost a 
-          business multifold such as stock optimization and resource management can be effectively
-           done by predicting user sentiment for a certain period of time. betterdata adds to this 
-           capability with data synthesis that can amplify hidden data patterns, which are otherwise
-            missed with traditional techniques.
+          Conversational AI can be used to gather feedback and conduct surveys on a website. 
+          Chatbots can be programmed to ask questions, collect responses, and provide insights 
+          into user preferences and opinions.
           </p>
         </div>
 

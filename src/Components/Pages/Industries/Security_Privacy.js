@@ -15,10 +15,10 @@ const Security_Privacy = () => {
             </p>
 
             <p className='my-6 text-xl text-gray-700'>
-            E-commerce was one of the early adopters of AI/ML models that used them to design data 
-            clustering algorithms and automate which products should be shown on a user’s homepage. 
-            AI is now present in nearly every action a user takes, which allows retail companies to 
-            collect user data and offer more personalised services.
+            AI can be a powerful tool for improving security and privacy in organizations.
+            By leveraging the power of machine learning and data analytics, AI can help 
+            detect threats, prevent fraud, and protect user data, allowing organizations 
+            to operate with confidence and trust.
             </p>
 
             <div className='bg-slate-700 text-white px-6 py-2 rounded-full font-bold w-max hover:cursor-pointer'>
@@ -38,41 +38,48 @@ const Security_Privacy = () => {
         </div>
         <div className='mx-10'>
           <p className='text-2xl font-semibold'>
-          Customer churn model
+          Threat Detection
           </p>
           <p className='my-4 text-xl'>
-          Predicting and reducing user churn rate with targeted recommendations and 
-          offers is a common strategy of retail companies as retaining customers is a 
-          key concern for them. betterdata helps to balance and generate synthetic data 
-          that matches real user data and is free to use, share, and store across different 
-          business units within the same company as well as externally with third-parties.
+          AI can be used to detect and prevent cyber threats such as malware, phishing, 
+          and ransomware. Machine learning algorithms can analyze patterns of network 
+          activity and identify suspicious behavior, allowing security teams to take 
+          action before a breach occurs.
           </p>
         </div>
 
         <div className='mx-10 my-10'>
           <p className='text-2xl font-semibold'>
-          Recommendation systems that actually work
+          Fraud Detection
           </p>
           <p className='my-4 text-xl'>
-          Advanced clustering algorithms power recommendation systems and need huge volumes of 
-          user data for profiling. A recommendation system also requires AI models to be properly
-           fine-tuned and capture complex correlations between different user profiles. With
-            betterdata, real user data can be transformed into synthetic data that can be openly 
-            shared and used for product development to offer users more personalised services.
+          AI can be used to detect and prevent fraud by analyzing patterns of user 
+          behavior and identifying anomalies. Machine learning algorithms can flag 
+          suspicious transactions or activity and alert security teams, reducing the 
+          risk of financial losses.
           </p>
         </div>
 
         <div className='mx-10 my-10'>
           <p className='text-2xl font-semibold'>
-          Predictive sale analytics
+          Privacy Protection
           </p>
           <p className='my-4 text-xl'>
-          Retail businesses usually forecast their revenue goals by predicting when users 
-          are most likely to buy a certain product. Such predictive analytics can boost a 
-          business multifold such as stock optimization and resource management can be effectively
-           done by predicting user sentiment for a certain period of time. betterdata adds to this 
-           capability with data synthesis that can amplify hidden data patterns, which are otherwise
-            missed with traditional techniques.
+          AI can be used to protect user privacy by analyzing patterns of data use and 
+          identifying potential privacy risks. Machine learning algorithms can identify 
+          sensitive data such as social security numbers or credit card information and 
+          encrypt or anonymize the data to prevent unauthorized access.
+          </p>
+        </div>
+
+        <div className='mx-10 my-10'>
+          <p className='text-2xl font-semibold'>
+          Identity Verification
+          </p>
+          <p className='my-4 text-xl'>
+          AI can be used to verify user identity and prevent unauthorized access to 
+          sensitive data. Facial recognition and biometric technologies can be used 
+          to authenticate users and provide an additional layer of security.
           </p>
         </div>
 
