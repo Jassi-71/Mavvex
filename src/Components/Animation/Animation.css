@@ -1,0 +1,304 @@
+* {
+	box-sizing: border-box;
+  }
+  :root {
+	--light-color:#06feff;
+	--light-width:5px;
+	--light-height:5px;
+	--light-left-position:40%;
+	--light-top-position:40px;
+	--delay: 0ms;
+	--path: path('M 0.38198507,-0.07392048 -0.12582743,0.78740722 51.032376,30.949516 32.329251,41.650688 139.87613,104.58819 140.38003,103.72491 34.327298,41.660454 53.02261,30.963188 Z');
+	--path2: path('M 0.76757812,0.17773437 0.23242188,1.0214844 93.478516,60.179687 132.5,39.167969 l 35.00195,19.001953 63.24024,-35.132813 -0.48438,-0.875 L 167.49805,57.029297 132.5,38.03125 93.521484,59.021484 Z');
+	--path3: path('m 17.200195,131.54199 45.644531,26.34179 52.199224,-28.95312 -43.597661,-26.59961 85.613281,-47.207034 -56.81055,-33.4082 18.24806,-10.37109 -0.49415,-0.86914 -19.751954,11.22656 56.789064,33.39258 -85.585939,47.193354 43.601569,26.60156 -50.201178,27.84571 -45.154297,-26.0586 z');
+	--path4: path('M 0.8,105 183.8,1 183.3,0.1 0.3,104.1 Z');
+	--path5: path('M 160.75195,135.56641 126.00781,155.41992 83.943359,129.98633 150.95898,86.978516 0.25,-0.43164063 -0.25,0.43164063 149.04297,87.021484 82.054687,130.01172 l 43.937503,26.56836 35.25586,-20.14649 z');
+	--path6: path('M 134.26562,82.623047 199.08398,42.074219 144.0957,11.525391 85.09375,45.527344 0.13867187,-0.63867187 -0.33789063,0.24023438 85.107422,46.673828 l 58.998048,-34 53.00976,29.451172 -63.38086,39.650391 0.53125,0.847656');
+	--path7: path('M 156.74219,-0.4296875 -0.2578125,93.570312 0.2578125,94.429687 157.25781,0.4296875 Z');
+  
+  }
+  
+  body {
+	width: 100%;
+	height: 100%;
+	
+	background-color:#00416B;
+	margin: 0;
+	padding: 0;
+  }
+  
+  .wrapper {
+	width: 800px;
+	height:600px;
+	margin-top: 100px;
+	margin-left: 50px;
+	
+	background-image:url(https://bright.consulting/wp-content/uploads/2021/11/header-img-trans4-Ready.png);
+	  background-size: fit;
+	  background-repeat: no-repeat;
+	  background-attachment:relative;
+	
+  }
+  .elevate {
+	margin-top: -50px;
+	height:165px;
+	width:165px;
+	border:1px solid #fff;
+	border-left:none;
+	border-top:none;
+	position:relative;
+	left:280px;
+	top:145px;
+	transform: rotateX(55deg) rotateZ(45deg);
+	animation: anim-move 4s ease infinite;
+   }
+  @keyframes anim-move {
+	  0% {
+	  box-shadow: 0 0 rgba(6,254,255, 1);
+	  opacity:0;
+	  }
+	  50% {
+	  opacity:0.5;
+	}
+	
+	  100% {
+	  top:40px;
+	  opacity:0;
+		  box-shadow: 0 0 10px 8px transparent;
+		  border-width: 2px;
+	  }
+  }
+  .brain-light {
+	width: var(--light-width);
+	height: var(--light-height);
+	border-radius: 50%;
+	background-color: var(--light-color);
+	box-shadow: 0 0 0 rgba(6,254,255, 0.3);
+	position:relative;
+	top : calc(var(--light-top-position));
+	left:50%;
+	/* top: 20%; */
+	animation: anim-glow 3s ease infinite;
+  }
+  .a2 {
+	top:calc(var(--light-top-position));
+	left:52%;
+	animation-delay: 1s;
+  }
+  
+  .a3 {
+	top:calc(var(--light-top-position));
+	left:40%;
+	animation-delay:2s;
+  }
+  
+  .a4 {
+	top:calc(var(--light-top-position));
+	left:56%;
+	animation-delay:2.2s;
+  }
+  
+  .a5 {
+	top:calc(var(--light-top-position));
+	left:39%;
+	animation-delay:2.7s;
+  }
+  
+  .a6 {
+	top:calc(var(--light-top-position));
+	left:48%;
+	animation-delay:3.2s;
+  }
+  .a7 {
+	width:7px;
+	height:7px;
+	border-radius:initial;
+	top:calc(var(--light-top-position));
+	left:44%;
+	transform: rotateX(55deg) rotateZ(45deg);
+	animation-delay:3.2s;
+  }
+  .a8 {
+	width:7px;
+	height:90px;
+	border-radius:initial;
+	color:#2AF6FF;
+	mix-blend-mode: color;
+	top:120px;
+	left:320px;
+	transform: rotateX(55deg) rotateZ(45deg);
+	animation-delay:2s;
+  }
+  
+  
+  @keyframes anim-glow {
+	  0% {
+		  box-shadow: 0 0 rgba(6,254,255, 1);
+	  opacity:0;
+	  }
+	  50% {
+	  opacity:100%;
+	}
+	
+	  100% {
+	  opacity:0;
+		  box-shadow: 0 0 10px 8px transparent;
+		  border-width: 2px;
+	  }
+  }
+  .letter-light {
+	width: var(--light-width);
+	height: var(--light-height);
+	border-radius: 50%;
+	background-color: var(--light-color);
+	box-shadow: 0 0 0 rgba(6,254,255, 0.3);
+	position:relative;
+	top:calc(var(--light-top-position)+25px);
+	left:50%;
+	animation: anim-glow 3s ease infinite;
+	
+  }
+  svg {
+	position:relative;
+	top:150px;
+	left:102px;
+	width:50%;
+  }
+  .obj {
+	position: relative;
+	top: 152px;
+	  left: 102px;
+	offset-path: var(--path);
+	  animation: move 7000ms infinite ease-in-out var(--delay);
+	width: 0.3rem;
+	height: 0.3rem;
+	border-radius: 50%;
+	background-color: var(--light-color);
+	box-shadow: 0 0 0 rgba(6,254,255, 0.6);
+  }
+  
+  .obj2 {
+	position: relative;
+	top: 295px;
+	  left: 16px;
+	offset-path: var(--path2);
+	  animation: move 7000ms infinite ease-in-out var(--delay);
+	width: 0.3rem;
+	height: 0.3rem;
+	border-radius: 50%;
+	background-color: var(--light-color);
+	box-shadow: 0 0 0 rgba(6,254,255, 0.6);
+  }
+  
+  .obj3 {
+	position: relative;
+	top: 342px;
+	  left: 197px;
+	offset-path: var(--path3);
+	
+	  animation: move 7000ms infinite ease-in-out var(--delay);
+	width: 0.3rem;
+	height: 0.3rem;
+	border-radius: 50%;
+	background-color: var(--light-color);
+	box-shadow: 0 0 0 rgba(6,254,255, 0.6);
+  }
+  .obj4 {
+	position: relative;
+	top: 318px;
+	  left: 80px;
+	offset-path: var(--path4);
+	
+	  animation: move 7000ms infinite ease-in-out var(--delay);
+	width: 0.3rem;
+	height: 0.3rem;
+	border-radius: 50%;
+	background-color: var(--light-color);
+	box-shadow: 0 0 0 rgba(6,254,255, 0.6);
+  }
+  
+  .obj5 {
+	position: relative;
+	top: 315px;
+	  left: 460px;
+	offset-path: var(--path5);
+	
+	  animation: move 7000ms infinite ease-in-out var(--delay);
+	width: 0.3rem;
+	height: 0.3rem;
+	border-radius: 50%;
+	background-color: var(--light-color);
+	box-shadow: 0 0 0 rgba(6,254,255, 0.6);
+  }
+  
+  .obj6 {
+	position: relative;
+	top: 290px;
+	  left: 488px;
+	offset-path: var(--path6);
+	
+	  animation: move 7000ms infinite ease-in-out var(--delay);
+	width: 0.3rem;
+	height: 0.3rem;
+	border-radius: 50%;
+	background-color: var(--light-color);
+	box-shadow: 0 0 0 rgba(6,254,255, 0.6);
+  }
+  
+  .obj7 {
+	position: relative;
+	top: 120px;
+	  left: 475px;
+	offset-path: var(--path7);
+	
+	  animation: move 7000ms infinite ease-in-out var(--delay);
+	width: 0.3rem;
+	height: 0.3rem;
+	border-radius: 50%;
+	background-color: var(--light-color);
+	box-shadow: 0 0 0 rgba(6,254,255, 0.6);
+  }
+  
+  @keyframes move {
+	0% {
+		  opacity: 0;
+		  offset-distance: 0%;
+		  transform: scale(0);
+	  
+	  }
+	10% {
+		  opacity: 0.2;
+		  offset-distance: 0%;
+		  transform: scale(1);
+	  box-shadow: 0 0 rgba(6,254,255, 1);
+	  }
+	  30% {
+	  opacity: 1;
+		  
+	  }
+	  40% {
+	  opacity: 1;
+	}
+	45% {
+	  opacity: 1;
+	}
+	50% {
+	  opacity: 0;
+	  box-shadow: 0 0 10px 8px transparent;
+	}
+	  70% {
+	  opacity: 0;
+		  
+	  }
+	90% {
+		  opacity: 0;
+	  
+		  transform: scale(0.2);
+		  box-shadow: none;
+	}
+	  100% {
+		  opacity: 0;
+	  offset-distance: 100%;
+		  transform: scale(0.2);
+	}
+  }

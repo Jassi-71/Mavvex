@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Logo from '../../images/main_logo.jpg'
+import Logo from '../../images/logo2.png'
 import Navlinks from './Navlinks';
 import Button from '../Button';
 

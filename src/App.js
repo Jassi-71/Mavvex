@@ -1,6 +1,7 @@
 import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
 import Home from "./Components/Pages/Home/Home";
+import Animation from "./Components/Animation/Animation";
 import { Routes,Route } from "react-router-dom";
 import Healthcare from "./Components/Pages/Industries/Healthcare";
 import Agriculutre from './Components/Pages/Industries/Agriculutre';
@@ -13,7 +14,7 @@ import Career from './Components/Pages/Company/Career';
 import Publications from './Components/Pages/Research/Publications';
 import Research_team from './Components/Pages/Research/Research_team'
 
-function App() {
+function App() {  
   return (
     <section className='h-screen bg-cover bg-hero
     font-[Poppins] md:bg-top bg-center'>
@@ -45,6 +46,9 @@ function App() {
           <Route path="/research_team" element={<Research_team/>}/>
 
       </Routes>
+
+      <Animation></Animation>
+
       <Footer/>
     </section>
   )
