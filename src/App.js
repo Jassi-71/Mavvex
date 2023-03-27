@@ -7,8 +7,8 @@ import Agriculutre from './Components/Pages/Industries/Agriculutre';
 import Conversational_ai from './Components/Pages/Industries/Conversational_ai';
 import Retail from './Components/Pages/Industries/Retail';
 import Security_Privacy from './Components/Pages/Industries/Security_Privacy';
-import About_us from './Components/Pages/Company/About_us';
-import Contact_us from './Components/Pages/Company/Contact_us';
+import About from './Components/Pages/Company/About';
+import Contact from './Components/Pages/Company/Contact';
 import Career from './Components/Pages/Company/Career';
 import Publications from './Components/Pages/Research/Publications';
 import Research_team from './Components/Pages/Research/Research_team'
@@ -34,9 +34,9 @@ function App() {
 
           <Route path='/security_privacy_ai' element={<Security_Privacy/>}/>
 
-          <Route path='/about_us' element={<About_us/>}/>
+          <Route path='/about-us' element={<About/>}/>
 
-          <Route path='/contact_us' element={<Contact_us/>}/>
+          <Route path='/contact-us' element={<Contact/>}/>
 
           <Route path='/carrer' element={<Career/>}/>
 

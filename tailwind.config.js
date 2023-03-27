@@ -1,3 +1,5 @@
+const colors = require('tailwindcss/colors')
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -7,7 +9,9 @@ module.exports = {
     extend: {
       colors: {
         primary: "#695CFF",
-        hover:"#e1dff0"
+        hover:"#e1dff0",
+        'cyan': colors.cyan,
+        'teal': colors.teal
       },
       // backgroundImage: {
       //   'hero': "url('../src/images/ai.jpg')",
