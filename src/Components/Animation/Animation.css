@@ -2,11 +2,11 @@
 	box-sizing: border-box;
   }
   :root {
-	--light-color:#06feff;
-	--light-width:5px;
-	--light-height:5px;
-	--light-left-position:40%;
-	--light-top-position:40px;
+	--light-color:rgb(61, 124, 197);
+	--light-width:6px;
+	--light-height:6px;
+	--light-left-position:42%;
+	--light-top-position:30px;
 	--delay: 0ms;
 	--path: path('M 0.38198507,-0.07392048 -0.12582743,0.78740722 51.032376,30.949516 32.329251,41.650688 139.87613,104.58819 140.38003,103.72491 34.327298,41.660454 53.02261,30.963188 Z');
 	--path2: path('M 0.76757812,0.17773437 0.23242188,1.0214844 93.478516,60.179687 132.5,39.167969 l 35.00195,19.001953 63.24024,-35.132813 -0.48438,-0.875 L 167.49805,57.029297 132.5,38.03125 93.521484,59.021484 Z');
@@ -21,17 +21,15 @@
   body {
 	width: 100%;
 	height: 100%;
-	
-	background-color:#00416B;
 	margin: 0;
 	padding: 0;
   }
   
   .wrapper {
-	width: 800px;
-	height:600px;
-	margin-top: 100px;
-	margin-left: 50px;
+	width: 100%;
+	height:750px;
+	margin-top: 10%;
+	margin-left: 30%;
 	
 	background-image:url(https://bright.consulting/wp-content/uploads/2021/11/header-img-trans4-Ready.png);
 	  background-size: fit;
@@ -43,7 +41,7 @@
 	margin-top: -50px;
 	height:165px;
 	width:165px;
-	border:1px solid #fff;
+	border:10px solid #2e5ec7;
 	border-left:none;
 	border-top:none;
 	position:relative;
@@ -51,10 +49,11 @@
 	top:145px;
 	transform: rotateX(55deg) rotateZ(45deg);
 	animation: anim-move 4s ease infinite;
+	
    }
   @keyframes anim-move {
 	  0% {
-	  box-shadow: 0 0 rgba(6,254,255, 1);
+	  box-shadow: 0 0 rgb(40, 89, 145);
 	  opacity:0;
 	  }
 	  50% {
@@ -82,31 +81,31 @@
   }
   .a2 {
 	top:calc(var(--light-top-position));
-	left:52%;
+	left:44%;
 	animation-delay: 1s;
   }
   
   .a3 {
 	top:calc(var(--light-top-position));
-	left:40%;
+	left:32%;
 	animation-delay:2s;
   }
   
   .a4 {
 	top:calc(var(--light-top-position));
-	left:56%;
+	left:48%;
 	animation-delay:2.2s;
   }
   
   .a5 {
 	top:calc(var(--light-top-position));
-	left:39%;
+	left:31%;
 	animation-delay:2.7s;
   }
   
   .a6 {
 	top:calc(var(--light-top-position));
-	left:48%;
+	left:40%;
 	animation-delay:3.2s;
   }
   .a7 {
@@ -114,7 +113,7 @@
 	height:7px;
 	border-radius:initial;
 	top:calc(var(--light-top-position));
-	left:44%;
+	left:34%;
 	transform: rotateX(55deg) rotateZ(45deg);
 	animation-delay:3.2s;
   }
@@ -124,8 +123,9 @@
 	border-radius:initial;
 	color:#2AF6FF;
 	mix-blend-mode: color;
+	position: relative;
 	top:120px;
-	left:320px;
+	left:60%;
 	transform: rotateX(55deg) rotateZ(45deg);
 	animation-delay:2s;
   }
@@ -133,7 +133,7 @@
   
   @keyframes anim-glow {
 	  0% {
-		  box-shadow: 0 0 rgba(6,254,255, 1);
+		  box-shadow: 0 0 #2AF6FF;
 	  opacity:0;
 	  }
 	  50% {
@@ -153,7 +153,7 @@
 	background-color: var(--light-color);
 	box-shadow: 0 0 0 rgba(6,254,255, 0.3);
 	position:relative;
-	top:calc(var(--light-top-position)+25px);
+	top:calc(var(--light-top-position));
 	left:50%;
 	animation: anim-glow 3s ease infinite;
 	
@@ -270,7 +270,7 @@
 		  opacity: 0.2;
 		  offset-distance: 0%;
 		  transform: scale(1);
-	  box-shadow: 0 0 rgba(6,254,255, 1);
+	  box-shadow: 0 0 rgb(40, 89, 145);
 	  }
 	  30% {
 	  opacity: 1;

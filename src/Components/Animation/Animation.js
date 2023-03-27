@@ -4,24 +4,28 @@ import './Animation.css'; // For Your CSS file
 class Animation extends React.Component {
    render(){
       return (
-        <div class="wrapper">
-        <div class="obj"></div>
-        <div class="obj2"></div>
-        <div class="obj3"></div>
-        <div class="obj4"></div>
-        <div class="obj5"></div>
-        <div class="obj6"></div>
-        <div class="obj7"></div>
-        <div class = "brain-light"></div>
-        <div class = "brain-light a2"></div>
-        <div class = "brain-light a3"></div>
-        <div class = "brain-light a4"></div>
-        <div class = "brain-light a5"></div>
-        <div class = "brain-light a6"></div>
-        <div class = "brain-light a7"></div>
-        <div class = "brain-light a8"></div>
-        
-        <div class = "elevate"></div>
+
+        <div
+        style={{display: "flex",justifyContent: "center",alignItems: "center"}}>
+          <div class="wrapper">
+          <div class="obj"></div>
+          <div class="obj2"></div>
+          <div class="obj3"></div>
+          <div class="obj4"></div>
+          <div class="obj5"></div>
+          <div class="obj6"></div>
+          <div class="obj7"></div>
+          <div class = "brain-light"></div>
+          <div class = "brain-light a2"></div>
+          <div class = "brain-light a3"></div>
+          <div class = "brain-light a4"></div>
+          <div class = "brain-light a5"></div>
+          <div class = "brain-light a6"></div>
+          <div class = "brain-light a7"></div>
+          {/* <div class = "brain-light a8"></div> */}
+          
+          <div class = "elevate"></div>
+        </div>
         
       {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 515.8 168.1">
         <path stroke="#000" stroke-miterlimit="10" d="M.4 84.1s127.4 188 267.7 0 247.3 0 247.3 0"/>
