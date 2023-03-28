@@ -42,13 +42,14 @@ const Navlinks = () => {
                                     <div className='bg-white p-3.5 rounded-lg '>
                                         {
                                             link.sublink.map((slink)=>(
-                                                <li className='text-sm text-gray-600 my-2.5 hover:bg-hover rounded-lg'>
-                                                    
-                                                    <Link to={slink.link} className='hover:bg-hover rounded-lg'>
-                                                        <span className='text-2xl mx-3'>
-                                                            {slink.icon}
-                                                        </span>
-                                                        {slink.name}
+                                                <li className='text-sm text-gray-600 hover:bg-hover rounded-lg m-2'>
+                                                    <Link to={slink.link}>
+                                                        <div className='flex items-center mx-5'>
+                                                            <span className='text-2xl mx-3 my-1'>
+                                                                {slink.icon}
+                                                            </span>
+                                                            {slink.name}
+                                                        </div>
                                                     </Link>
                                                 </li>
                                             ))

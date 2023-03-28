@@ -26,7 +26,7 @@ export const links=[
             name:'Conversational AI',link:'/conversational_ai',icon:<ion-icon name="chatbubbles-outline"></ion-icon>
         },
         {
-            name:'Security and Privacy in AI',link:'security_privacy_ai',icon:<ion-icon name="finger-print-outline"></ion-icon>
+            name:'Security and Privacy in AI',link:'/security_privacy_ai',icon:<ion-icon name="finger-print-outline"></ion-icon>
         }
     ]},
     {name:'Research',submenu:true,sublink:[
