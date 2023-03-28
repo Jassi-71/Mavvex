@@ -78,36 +78,36 @@ const About_us = () => {
 
         <div className='grid grid-cols-3 gap-10'>
           <div className='flex flex-col place-items-center gap-1.5'>
-            <img className='rounded-full' src={Bruce} alt='image'/>
+            <img className='rounded-full w-96 h-96' src={Bruce} alt='image'/>
             <p className='font-bold text-lg'>Bruce Peter</p>
             <p>CEO</p>
           </div>
           <div className='flex flex-col place-items-center gap-1.5'>
-            <img className='rounded-full' src={Brian} alt='image'/>
+            <img className='rounded-full w-96 h-96' src={Brian} alt='image'/>
             <p className='font-bold text-lg'>Brian George</p>
             <p>CTO & Co-Founder</p>
           </div>
           <div className='flex flex-col place-items-center gap-1.5'>
-            <img className='rounded-full' src={Rosa} alt='image'/>
+            <img className='rounded-full w-96 h-96' src={Rosa} alt='image'/>
             <p className='font-bold text-lg'>Rosa Parks</p>
             <p>CFO</p>
           </div>
         </div>
         
         
-        <div className='grid grid-cols-3 gap-10'>
+        <div className='grid grid-cols-3 gap-10 my-20'>
           <div className='flex flex-col place-items-center gap-1.5'>
-            <img className='rounded-full' src={Beatrix} alt='image'/>
+            <img className='rounded-full w-96 h-96' src={Beatrix} alt='image'/>
             <p className='font-bold text-lg'>Beatrix Potter </p>
             <p>COO</p>
           </div>
           <div className='flex flex-col place-items-center gap-1.5'>
-            <img className='rounded-full' src={Jeffrey} alt='image'/>
+            <img className='rounded-full w-96 h-96' src={Jeffrey} alt='image'/>
             <p className='font-bold text-lg'>Jeffrey Gary</p>
             <p>President of Worldwide Field Operations</p>
           </div>
           <div className='flex flex-col place-items-center gap-1.5'>
-            <img className='rounded-full' src={Harriet} alt='image'/>
+            <img className='rounded-full w-96 h-96' src={Harriet} alt='image'/>
             <p className='font-bold text-lg'>Harriet Tubman </p>
             <p>SVP Global HR</p>
           </div>
