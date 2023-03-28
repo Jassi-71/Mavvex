@@ -67,11 +67,12 @@ const Navlinks = () => {
                                     <div >
                                         <li className="py-3 pl-14  hover:bg-hover rounded-lg">
                                             <Link to={slink.link}>
-                                                <span className='text-2xl mx-3'>
-                                                    {slink.icon}
-                                                </span>
-
-                                                {slink.name}
+                                                        <div className='flex items-center mx-5'>
+                                                            <span className='text-2xl mx-3 my-1'>
+                                                                {slink.icon}
+                                                            </span>
+                                                            {slink.name}
+                                                        </div>
                                             </Link>
                                         </li>
                                     </div>
