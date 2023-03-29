@@ -25,7 +25,7 @@ const Contact = () => {
               <span className="p-2 inline-flex items-center rounded-full bg-gray-700 mx-1.5 text-xl hover:text-gray-100 hover:bg-teal-500 duration-300">
                 <ion-icon name="mail"></ion-icon>
               </span>
-              <span className="text-base"> <a href="mailto:admin@mavvexlabs.com" target="_blank">admin@mavvexlabs.com</a></span>
+              <span className="text-base"><a href="mailto:admin@mavvexlabs.com" target="_blank">admin@mavvexlabs.com</a></span>
             </div>
             <div className="inline-flex space-x-2 items-center">
               <span className="p-2 inline-flex items-center rounded-full bg-gray-700 mx-1.5 text-xl hover:text-gray-100 hover:bg-teal-500 duration-300">
@@ -80,7 +80,7 @@ const Contact = () => {
                 <textarea placeholder="Please type your message and we'll respond as soon as possible." rows="5" className="text-sm ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-non focus:ring-2 focus:ring-teal-300 mt-2"/>
               </div>
 
-              <button class="inline-block self-end bg-teal-800 text-white font-bold rounded-lg px-6 py-2 uppercase text-sm">Send message</button>
+              <button class="inline-block self-end bg-teal-800 hover:bg-teal-600 text-white font-bold rounded-lg px-6 py-2 uppercase text-sm">Send message</button>
             </form>
           </div>
         </div>
