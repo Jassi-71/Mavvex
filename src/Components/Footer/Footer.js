@@ -8,7 +8,7 @@ const Footer = () => {
         <ItemsContainer/>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 text-center pt-2 text-gray-400 text-sm mb-10 pb-8">
             <div>
-                admin@mavvexlabs.com 
+                <a href="mailto:admin@mavvexlabs.com" target="_blank">admin@mavvexlabs.com</a>
                 <br />
                 1197 Sainik Colony Sector 49, Faridabad HR - 121001, India
             </div>
