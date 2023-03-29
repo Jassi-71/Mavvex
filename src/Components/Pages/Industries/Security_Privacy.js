@@ -22,7 +22,7 @@ const Security_Privacy = () => {
             </p>
 
             <div className='bg-slate-700 text-white px-6 py-2 rounded-full font-bold w-max hover:cursor-pointer'>
-              Get in touch
+              <a href="/contact-us">Get in touch</a>
             </div>
         </div>
         

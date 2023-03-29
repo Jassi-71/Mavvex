@@ -39,10 +39,10 @@ export const links=[
     ]},
     {name:'Company',submenu:true,sublink:[
         {
-            name:'About Us',link:'/about_us',icon:<ion-icon name="mail-open-outline"></ion-icon>
+            name:'About Us',link:'/about-us',icon:<ion-icon name="mail-open-outline"></ion-icon>
         },
         {
-            name:'Contact Us',link:'/contact_us',icon:<ion-icon name="chatbox-outline"></ion-icon>
+            name:'Contact Us',link:'/contact-us',icon:<ion-icon name="chatbox-outline"></ion-icon>
         },
         {
             name:'Careers',link:'/carrer',icon:<ion-icon name="trending-up-outline"></ion-icon>
