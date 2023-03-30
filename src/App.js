@@ -13,7 +13,7 @@ import Career from './Components/Pages/Company/Career';
 import Publications from './Components/Pages/Research/Publications';
 import Research_team from './Components/Pages/Research/Research_team'
 
-function App() {
+function App() {  
   return (
     <section className='h-screen bg-cover bg-hero
     font-[Poppins] md:bg-top bg-center'>
@@ -45,7 +45,7 @@ function App() {
           <Route path="/research_team" element={<Research_team/>}/>
 
       </Routes>
-      
+
       <Footer/>
     </section>
   )
