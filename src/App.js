@@ -18,7 +18,7 @@ function App() {
     <section className='h-screen bg-cover bg-hero
     font-[Poppins] md:bg-top bg-center'>
 
-      <Navbar/>
+      <Navbar />
 
       <Routes>
 
@@ -45,6 +45,7 @@ function App() {
           <Route path="/research_team" element={<Research_team/>}/>
 
       </Routes>
+      
       <Footer/>
     </section>
   )
