@@ -3,8 +3,8 @@ import Tractor from '../../../images/tractor.png'
 
 const Agriculutre = () => {
   return (
-    <div className='grid grid-row-3 gap-10 mx-72'>
-      <div className='grid grid-cols-2 gap-10'>
+    <div className='grid grid-row-3 mx-10 md:mx-48'>
+      <div className='grid grid-cols-1 lg:grid-cols-2 gap-10'>
         <div>
             <div className='my-8 text-2xl font-semibold text-sky-600'>
               Industries
@@ -26,8 +26,8 @@ const Agriculutre = () => {
             </div>
         </div>
         
-        <div className='m-28'>
-          <img src={Tractor} alt="logo" />
+        <div className='mt-0 lg:mt-40'>
+          <img src={Tractor} alt="logo" className='object-scale-down h-48 w-96'/>
         </div>
       </div>
 
@@ -36,7 +36,7 @@ const Agriculutre = () => {
         <div className='my-8 text-2xl font-semibold text-sky-600'>
           Use Cases
         </div>
-        <div className='mx-10'>
+        <div>
           <p className='text-2xl font-semibold'>
           Precision Agriculture
           </p>
@@ -50,7 +50,7 @@ const Agriculutre = () => {
           </p>
         </div>
 
-        <div className='mx-10 my-10'>
+        <div className='my-10'>
           <p className='text-2xl font-semibold'>
           Crop Monitoring and Yield Prediction
           </p>
@@ -62,7 +62,7 @@ const Agriculutre = () => {
           </p>
         </div>
 
-        <div className='mx-10 my-10'>
+        <div className='my-10'>
           <p className='text-2xl font-semibold'>
           Pest and Disease Detection
           </p>
@@ -74,7 +74,7 @@ const Agriculutre = () => {
           </p>
         </div>
 
-        <div className='mx-10 my-10'>
+        <div className='my-10'>
           <p className='text-2xl font-semibold'>
           Livestock Management
           </p>
@@ -87,7 +87,7 @@ const Agriculutre = () => {
           </p>
         </div>
 
-        <div className='py-20'/>
+        <div className='py-10'/>
 
       </div>
     </div>

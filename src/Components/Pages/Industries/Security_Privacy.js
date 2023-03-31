@@ -3,8 +3,8 @@ import Privacy from '../../../images/privacy.png'
 
 const Security_Privacy = () => {
   return (
-    <div className='grid grid-row-3 gap-10 mx-72'>
-      <div className='grid grid-cols-2 gap-10'>
+    <div className='grid grid-row-3 mx-10 md:mx-48'>
+      <div className='grid grid-cols-1 lg:grid-cols-2 gap-10'>
         <div>
             <div className='my-8 text-2xl font-semibold text-sky-600'>
               Industries
@@ -26,8 +26,8 @@ const Security_Privacy = () => {
             </div>
         </div>
         
-        <div className='m-28'>
-          <img src={Privacy} alt="logo" />
+        <div className='mt-0 lg:mt-40'>
+          <img src={Privacy} alt="logo" className='object-scale-down h-48 w-96'/>
         </div>
       </div>
 
@@ -36,7 +36,7 @@ const Security_Privacy = () => {
         <div className='my-8 text-2xl font-semibold text-sky-600'>
           Use Cases
         </div>
-        <div className='mx-10'>
+        <div>
           <p className='text-2xl font-semibold'>
           Threat Detection
           </p>
@@ -48,7 +48,7 @@ const Security_Privacy = () => {
           </p>
         </div>
 
-        <div className='mx-10 my-10'>
+        <div className='my-10'>
           <p className='text-2xl font-semibold'>
           Fraud Detection
           </p>
@@ -60,7 +60,7 @@ const Security_Privacy = () => {
           </p>
         </div>
 
-        <div className='mx-10 my-10'>
+        <div className='my-10'>
           <p className='text-2xl font-semibold'>
           Privacy Protection
           </p>
@@ -72,7 +72,7 @@ const Security_Privacy = () => {
           </p>
         </div>
 
-        <div className='mx-10 my-10'>
+        <div className='my-10'>
           <p className='text-2xl font-semibold'>
           Identity Verification
           </p>
@@ -83,7 +83,7 @@ const Security_Privacy = () => {
           </p>
         </div>
 
-        <div className='py-20'/>
+        <div className='py-10'/>
 
       </div>
     </div>
