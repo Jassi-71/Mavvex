@@ -1,15 +1,21 @@
 import React, { useState } from 'react'
 import Logo from '../../images/logo2.png'
 import Navlinks from './Navlinks';
+import { useNavigate } from "react-router-dom"
 import Button from '../Button';
 
 const Navbar = () => {
   const [open,setOpen]=useState(false)
+
+  const navigate = useNavigate()
+
+  const onClickHandler = () => navigate(`/`)
+
   return (
     <nav className='bg-white sticky top-0 z-50'>
       <div className='flex items-center font-medium justify-around'>
       <div className="z-50 p-5 md:w-auto w-full flex justify-between">
-          <img src={Logo} alt="logo" className="md:cursor-pointer h-16 rounded-lg" />
+          <img src={Logo} alt="logo" className="md:cursor-pointer h-16 rounded-lg" onClick={onClickHandler}/>
           <div className='text-3xl md:hidden' onClick={()=>setOpen(!open)}>
             <ion-icon name={`${open ? 'close':'menu'}`} style={{'color':'black'}}></ion-icon>
           </div>
