@@ -13,14 +13,14 @@ export const Industries = [
 ];
 
 export const Research = [
-    {name: 'Publications', link: '/publications'},
-    {name: 'Research Team', link: '/research_team'},
+    {name: 'Publications', link: '/'},
+    {name: 'Research Team', link: '/'},
 ];
 
 export const Company = [
     {name: 'About us', link: '/about-us'},
     {name: 'Contact us', link: '/contact-us'},
-    {name: 'Careers', link: '/carrer'},
+    {name: 'Careers', link: '/'},
     {name: 'Customers', link: '/'},
     {name: 'Blog', link: '/'}
 ];
