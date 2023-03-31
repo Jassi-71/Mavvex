@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a4c1f515.css",
+    "main.js": "/static/js/main.6d05c799.js",
+    "static/js/787.9b06cee2.chunk.js": "/static/js/787.9b06cee2.chunk.js",
+    "static/media/animation1.jpeg": "/static/media/animation1.e3ea2c3ce75d3c044c0e.jpeg",
+    "static/media/Harriet.jpg": "/static/media/Harriet.18ecec03ebe306061eb3.jpg",
+    "static/media/Beatrix.jpg": "/static/media/Beatrix.0c2a987a6626f1ab83ea.jpg",
+    "static/media/our_story.jpg": "/static/media/our_story.d1a5ff41c820a0140ef3.jpg",
+    "static/media/Rosa.png": "/static/media/Rosa.d2309b435032038ce9d2.png",
+    "static/media/vision.jpg": "/static/media/vision.e90e9e68525a107da3ad.jpg",
+    "static/media/tractor.png": "/static/media/tractor.f8228f5025897cd12589.png",
+    "static/media/cart.png": "/static/media/cart.b8006dadcde5c80f5495.png",
+    "static/media/Brian.jpg": "/static/media/Brian.2c073131c458c65c7483.jpg",
+    "static/media/healthcare.png": "/static/media/healthcare.c57cc067a32573c05d2e.png",
+    "static/media/logo2.png": "/static/media/logo2.0dadad8ebd141f4acf0d.png",
+    "static/media/privacy.png": "/static/media/privacy.a0c73ac51f7e8e806495.png",
+    "static/media/Bruce.jpg": "/static/media/Bruce.54058bde902ed363a621.jpg",
+    "static/media/robot.png": "/static/media/robot.bd257c888b1c40daa94e.png",
+    "index.html": "/index.html",
+    "main.a4c1f515.css.map": "/static/css/main.a4c1f515.css.map",
+    "main.6d05c799.js.map": "/static/js/main.6d05c799.js.map",
+    "787.9b06cee2.chunk.js.map": "/static/js/787.9b06cee2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4c1f515.css",
+    "static/js/main.6d05c799.js"
+  ]
+}
