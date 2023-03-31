@@ -27,7 +27,7 @@ const Navbar = () => {
         {/*Mobile Nav*/}
 
         <ul className={`md:hidden bg-white fixed w-full top-0 overflow-y-auto bottom-0 py-24 pl-4
-            duration-500 ${open ? 'left-0' :'left-[-100%]'}`}>
+            duration-500 ${open ? 'left-0' :'left-[-100%]'}`} onClick={()=>setOpen(!open)}>
           <Navlinks/>
           <div className='py-5'>
             <Button/>

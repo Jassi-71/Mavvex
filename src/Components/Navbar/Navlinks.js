@@ -14,7 +14,9 @@ const Navlinks = () => {
                                 {link.name}
                                  
                                  {
-                                    link.sublink && <> <span className='text-xl md:hidden inline'>
+                                    link.sublink && <> 
+                                    
+                                        <span className='text-xl md:hidden inline'>
                                         <ion-icon name={`${heading===link.name ? 'chevron-up' : 'chevron-down'}`} style={{'color':'black'}}>
 
                                             </ion-icon>
@@ -33,13 +35,13 @@ const Navlinks = () => {
                             </h1>
                             {link.submenu && 
                             <div>
-                                <div className='absolute top-25 hidden group-hover:md:block hover:md:block'>
+                                <div className='absolute top-16 hidden group-hover:md:block hover:md:block'>
                                     <div className='py-3 '>
                                         <div className='w-4 h-4 left-3 absolute mt-1 bg-white rotate-45 '>
 
                                         </div>
                                     </div>
-                                    <div className='bg-white p-3.5 rounded-lg '>
+                                    <div className='bg-white border-double border-2 border-violet-100 p-3.5 rounded-2xl '>
                                         {
                                             link.sublink.map((slink)=>(
                                                 <li className='text-sm text-gray-600 hover:bg-hover rounded-lg m-2'>
