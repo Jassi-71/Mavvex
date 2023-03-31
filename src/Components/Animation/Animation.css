@@ -1,6 +1,5 @@
 * {
 	box-sizing: border-box;
-	
   }
   :root {
 	--light-color:rgb(61, 124, 197);
@@ -16,11 +15,9 @@
 	--path5: path('M 160.75195,135.56641 126.00781,155.41992 83.943359,129.98633 150.95898,86.978516 0.25,-0.43164063 -0.25,0.43164063 149.04297,87.021484 82.054687,130.01172 l 43.937503,26.56836 35.25586,-20.14649 z');
 	--path6: path('M 134.26562,82.623047 199.08398,42.074219 144.0957,11.525391 85.09375,45.527344 0.13867187,-0.63867187 -0.33789063,0.24023438 85.107422,46.673828 l 58.998048,-34 53.00976,29.451172 -63.38086,39.650391 0.53125,0.847656');
 	--path7: path('M 156.74219,-0.4296875 -0.2578125,93.570312 0.2578125,94.429687 157.25781,0.4296875 Z');
-  
   }
   
   body {
-	margin: auto;
 	/* background-color: black; */
   }
   
@@ -28,7 +25,6 @@
 	width: 704px;
 	height:512px;
 	background-color: #2AF6FF;
-	
 	background-image:url(../../images/animation1.jpeg);
 	background-size: fit;
 	z-index: -1;
@@ -36,6 +32,54 @@
 	background-attachment:relative;
 	
   }
+
+  .background{
+	display: 'flex';
+	flex-wrap: 'wrap';
+	justify-content: 'center';
+	align-items: 'center';
+	height:'100%';
+	width: 100%;
+  }
+
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+	.wrapper {
+	  transform: scale(0.8);
+	}
+  }
+
+  @media screen and (min-width: 1024px) and (max-width: 1224px) {
+	.wrapper {
+	  transform: scale(0.9);
+	}
+  }
+
+  @media screen and (min-width: 1024px){
+	.wrapper {
+	  transform: scale(1);
+	}
+  }
+
+  @media screen and (max-width: 698px) {
+	.wrapper {
+		transform: scale(0.9);
+		overflow: hidden;
+	}	
+  }
+
+  @media screen and (min-width: 698px) and (max-width: 768px) {
+	.wrapper {
+	  transform: scale(0.7);
+	}
+  }
+
+  svg {
+	position:absolute;
+	top:150px;
+	left:102px;
+	width:50%;
+  }
+
   .elevate {
 	margin-top: -50px;
 	height:165px;
@@ -164,12 +208,7 @@
 	animation: anim-glow 3s ease infinite;
 	
   }
-  svg {
-	position:absolute;
-	top:150px;
-	left:102px;
-	width:50%;
-  }
+
   .obj {
 	position: relative;
 	top: 152px;
