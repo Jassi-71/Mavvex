@@ -22,27 +22,27 @@ function App() {
 
       <Routes>
 
-          <Route path="/" element={<Home/>}/>
+          <Route exact path="/" element={<Home/>}/>
 
-          <Route path='/healthcare' element={<Healthcare/>}/>
+          <Route exact path='/healthcare' element={<Healthcare/>}/>
 
-          <Route path='/retail' element={<Retail/>}/>
+          <Route exact path='/retail' element={<Retail/>}/>
 
-          <Route path='/agriculture' element={<Agriculutre/>}/>
+          <Route exact path='/agriculture' element={<Agriculutre/>}/>
 
-          <Route path='/conversational_ai' element={<Conversational_ai/>}/>
+          <Route exact path='/conversational_ai' element={<Conversational_ai/>}/>
 
-          <Route path='/security_privacy_ai' element={<Security_Privacy/>}/>
+          <Route exact path='/security_privacy_ai' element={<Security_Privacy/>}/>
 
-          <Route path='/about-us' element={<About/>}/>
+          <Route exact path='/about-us' element={<About/>}/>
 
-          <Route path='/contact-us' element={<Contact/>}/>
+          <Route exact path='/contact-us' element={<Contact/>}/>
 
-          <Route path='/carrer' element={<Career/>}/>
+          <Route exact path='/carrer' element={<Career/>}/>
 
-          <Route path='/publications' element={<Publications/>}/>
+          <Route exact path='/publications' element={<Publications/>}/>
 
-          <Route path="/research_team" element={<Research_team/>}/>
+          <Route exact path="/research_team" element={<Research_team/>}/>
 
       </Routes>
 
