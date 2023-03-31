@@ -14,14 +14,15 @@ const About = () => {
       <div>
         
       </div>
-      <div className='grid grid-row-6 gap-10 mx-72'>
-        <div className='grid grid-cols-2 gap-10'>
+      <div className='grid grid-row-3 mx-10 md:mx-48'>
+        <p className='text-5xl font-bold'>
+          Our Mission
+        </p>
+
+        <div className='grid grid-cols-1 lg:grid-cols-2'>
         
           <div>
-            <p className='text-5xl font-bold'>
-              Our Mission
-            </p>
-            <div className='my-10 mx-5 text-xl text-gray-700'>
+            <div className='my-10 text-xl text-gray-700'>
 
               <p className='my-6'>
               Our mission is to empower businesses and organizations to harness the full potential of artificial intelligence to solve complex problems and drive innovation. Through our consultancy services, we work closely with our clients to understand their unique challenges and design customized solutions that leverage the latest AI technologies and best practices.
@@ -39,20 +40,21 @@ const About = () => {
 
             </div>
           </div>
-          <div>
-            <img src={Vision} alt="logo" />
+          <div className='mt-0 lg:mt-40'>
+            <img src={Vision} alt="logo" className='object-scale-down h-80 w-100'/>
           </div>
         </div>
 
-        <div className='grid grid-cols-2 gap-10'>
-          <div>
-            <img src={Story} alt='story'/>
+        <p className='text-5xl font-bold'>
+          Our Story
+        </p>
+
+        <div className='grid grid-cols-1 lg:grid-cols-2'>
+          <div className='mt-0 lg:mt-40'>
+            <img src={Story} alt='story' className='object-scale-down h-80 w-100'/>
           </div>
-          <div className='mx-10'>
-            <p className='text-5xl font-bold'>
-              Our Story
-            </p>
-            <div className='my-10 mx-5 text-xl text-gray-700'>
+          <div>
+            <div className='my-10 text-xl text-gray-700'>
               <p className='my-6'>
                 Our story began with a shared passion for artificial intelligence and its potential to transform the way we live, work, and interact with the world.
                 As a team of experienced AI professionals, we saw firsthand the incredible power of AI to solve complex problems and unlock new opportunities for businesses and organizations.
@@ -70,50 +72,50 @@ const About = () => {
           </div>
         </div>
 
-        <div className='grid grid-cols-1 place-items-center my-28'>
+        <div className='grid grid-cols-1 place-items-center my-16'>
           <p className='text-5xl font-bold'>
             Our Leadership
           </p>
         </div>
 
-        <div className='grid grid-cols-3 gap-10'>
+        <div className='grid grid-cols-1 lg:grid-cols-3 gap-10 my-10'>
           <div className='flex flex-col place-items-center gap-1.5'>
-            <img className='rounded-full w-96 h-96' src={Bruce} alt='image'/>
+            <img className='rounded-full w-80 h-80' src={Bruce} alt='image'/>
             <p className='font-bold text-lg'>Bruce Peter</p>
             <p>CEO</p>
           </div>
           <div className='flex flex-col place-items-center gap-1.5'>
-            <img className='rounded-full w-96 h-96' src={Brian} alt='image'/>
+            <img className='rounded-full w-80 h-80' src={Brian} alt='image'/>
             <p className='font-bold text-lg'>Brian George</p>
             <p>CTO & Co-Founder</p>
           </div>
           <div className='flex flex-col place-items-center gap-1.5'>
-            <img className='rounded-full w-96 h-96' src={Rosa} alt='image'/>
+            <img className='rounded-full w-80 h-80' src={Rosa} alt='image'/>
             <p className='font-bold text-lg'>Rosa Parks</p>
             <p>CFO</p>
           </div>
         </div>
         
         
-        <div className='grid grid-cols-3 gap-10 my-20'>
+        <div className='grid grid-cols-1 lg:grid-cols-3 gap-10 my-0 lg:my-10'>
           <div className='flex flex-col place-items-center gap-1.5'>
-            <img className='rounded-full w-96 h-96' src={Beatrix} alt='image'/>
+            <img className='rounded-full w-80 h-80 object-contain' src={Beatrix} alt='image'/>
             <p className='font-bold text-lg'>Beatrix Potter </p>
             <p>COO</p>
           </div>
           <div className='flex flex-col place-items-center gap-1.5'>
-            <img className='rounded-full w-96 h-96' src={Jeffrey} alt='image'/>
+            <img className='rounded-full w-80 h-80 object-contain' src={Jeffrey} alt='image'/>
             <p className='font-bold text-lg'>Jeffrey Gary</p>
             <p>President of Worldwide Field Operations</p>
           </div>
           <div className='flex flex-col place-items-center gap-1.5'>
-            <img className='rounded-full w-96 h-96' src={Harriet} alt='image'/>
+            <img className='rounded-full w-80 h-80' src={Harriet} alt='image'/>
             <p className='font-bold text-lg'>Harriet Tubman </p>
             <p>SVP Global HR</p>
           </div>
         </div>
 
-        <div className='my-32'/>
+        <div className='my-10'/>
       </div>
       
 
