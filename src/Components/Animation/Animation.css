@@ -1,5 +1,6 @@
 * {
 	box-sizing: border-box;
+	
   }
   :root {
 	--light-color:rgb(61, 124, 197);
@@ -19,24 +20,20 @@
   }
   
   body {
-	background-color: transparent;
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	padding: 0;
+	margin: auto;
+	/* background-color: black; */
   }
   
   .wrapper {
-	width: 100%;
-	height:750px;
-	margin-top: 8%;
-	margin-left: 30%;
+	width: 704px;
+	height:512px;
+	background-color: #2AF6FF;
 	
 	background-image:url(../../images/animation1.jpeg);
-	  background-size: fit;
-	  z-index: -1;
-	  background-repeat: no-repeat;
-	  background-attachment:relative;
+	background-size: fit;
+	z-index: -1;
+	background-repeat: no-repeat;
+	background-attachment:relative;
 	
   }
   .elevate {
@@ -77,49 +74,56 @@
 	box-shadow: 0 0 0 rgba(6,254,255, 0.3);
 	position:relative;
 	top : calc(var(--light-top-position));
-	left:50%;
+	left:350px;
 	/* top: 20%; */
 	animation: anim-glow 3s ease infinite;
   }
   .a2 {
+	position:relative;
 	top:calc(var(--light-top-position));
-	left:44%;
+	left:400px;
 	animation-delay: 1s;
   }
   
   .a3 {
+	position:relative;
 	top:calc(var(--light-top-position));
-	left:32%;
+	left:440px;
 	animation-delay:2s;
   }
   
   .a4 {
+	position:relative;
 	top:calc(var(--light-top-position));
-	left:48%;
+	left:290px;
 	animation-delay:2.2s;
   }
   
   .a5 {
+	position:relative;
 	top:calc(var(--light-top-position));
-	left:31%;
+	left:320px;
 	animation-delay:2.7s;
   }
   
   .a6 {
+	position:relative;
 	top:calc(var(--light-top-position));
-	left:40%;
+	left:400px;
 	animation-delay:3.2s;
   }
   .a7 {
+	position:relative;
 	width:7px;
 	height:7px;
 	border-radius:initial;
 	top:calc(var(--light-top-position));
-	left:34%;
+	left:360px;
 	transform: rotateX(55deg) rotateZ(45deg);
 	animation-delay:3.2s;
   }
   .a8 {
+	position:relative;
 	width:7px;
 	height:90px;
 	border-radius:initial;
@@ -161,7 +165,7 @@
 	
   }
   svg {
-	position:relative;
+	position:absolute;
 	top:150px;
 	left:102px;
 	width:50%;

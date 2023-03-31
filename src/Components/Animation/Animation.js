@@ -6,7 +6,7 @@ class Animation extends React.Component {
       return (
 
         <div
-        style={{display: "flex",justifyContent: "center",alignItems: "center", zIndex: 9}}>
+          style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center',alignItems: 'center', height:'100%'}}>
           <div class="wrapper">
           <div class="obj"></div>
           <div class="obj2"></div>
