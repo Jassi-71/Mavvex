@@ -1,28 +1,28 @@
 export const UseCases = [
-    {name: 'Deep Tech Product Development', link: '#'},
-    {name: 'Data Privacy in ML Model', link: '#'},
-    {name: 'Language Transcription & Translation', link: '#'},
+    {name: 'Deep Tech Product Development', link: '/product-development'},
+    {name: 'Data Privacy in ML Model', link: '/data-privacy'},
+    {name: 'Language Transcription & Translation', link: '/t-t-services'},
 ];
 
 export const Industries = [
-    {name: 'Healthcare', link: '#'},
-    {name: 'Retail', link: '#'},
-    {name: 'Agriculture', link: '#'},
-    {name: 'Conversational AI', link: '#'},
-    {name: 'Security and Privacy in AI', link: '#'},
-    {name: 'Customers', link: '#'},
+    {name: 'Healthcare', link: '/healthcare'},
+    {name: 'Retail', link: '/retail'},
+    {name: 'Agriculture', link: '/agriculture'},
+    {name: 'Conversational AI', link: '/conversational_ai'},
+    {name: 'Security and Privacy in AI', link: '/security_privacy_ai'}
 ];
 
 export const Research = [
-    {name: 'Publications', link: '#'},
-    {name: 'Research Team', link: '#'},
+    {name: 'Publications', link: '/publications'},
+    {name: 'Research Team', link: '/research_team'},
 ];
 
 export const Company = [
-    {name: 'About us', link: '#'},
-    {name: 'Contact us', link: '#'},
-    {name: 'Careers', link: '#'},
-    {name: 'Blog', link: '#'}
+    {name: 'About us', link: '/about-us'},
+    {name: 'Contact us', link: '/contact-us'},
+    {name: 'Careers', link: '/carrer'},
+    {name: 'Customers', link: '/'},
+    {name: 'Blog', link: '/'}
 ];
 
 export const Contact = [
