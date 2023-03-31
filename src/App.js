@@ -12,6 +12,9 @@ import Contact from './Components/Pages/Company/Contact';
 import Career from './Components/Pages/Company/Career';
 import Publications from './Components/Pages/Research/Publications';
 import Research_team from './Components/Pages/Research/Research_team'
+import Product_Development from "./Components/Pages/Use_Cases/Product_Development";
+import Data_Privacy from "./Components/Pages/Use_Cases/Data_Privacy";
+import T_T_service from "./Components/Pages/Use_Cases/T_T_service";
 
 function App() {  
   return (
@@ -40,9 +43,15 @@ function App() {
 
           <Route exact path='/carrer' element={<Career/>}/>
 
-          <Route exact path='/publications' element={<Publications/>}/>
+          <Route exact path='/publications' element={<Home/>}/>
 
-          <Route exact path="/research_team" element={<Research_team/>}/>
+          <Route exact path="/research_team" element={<Home/>}/>
+
+          <Route exact path="/product-development" element={<Product_Development/>}/>
+
+          <Route exact path='/data-privacy' element={<Data_Privacy/>}/>
+
+          <Route exact path='/t-t-services' element={<T_T_service/>}/>
 
       </Routes>
 
